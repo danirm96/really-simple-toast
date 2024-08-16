@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",                     // O la versión de ECMAScript que prefieras
+    "module": "es6",                     // O el módulo que prefieras
+    "strict": true,                      // Activa todas las verificaciones estrictas
+    "esModuleInterop": true,             // Habilita la interoperabilidad entre módulos CommonJS y ES
+    "skipLibCheck": true,                // Omite la comprobación de tipo en archivos de declaración de librerías
+    "forceConsistentCasingInFileNames": true, // Forza un uso consistente de las mayúsculas en los nombres de archivo
+    "outDir": "./dist",                  // Carpeta de salida para los archivos compilados
+    "declaration": true,                 // Genera archivos de declaración .d.ts
+    "declarationMap": true,              // Genera un archivo de mapa de declaración para depuración
+    "sourceMap": true                    // Genera mapas de origen para depuración
+  },
+  "include": [
+    "src/**/*"                           // Carpeta que contiene tus archivos .ts
+  ],
+  "exclude": [
+    "node_modules"                       // Excluye la carpeta node_modules
+  ]
+}
