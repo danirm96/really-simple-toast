@@ -1,7 +1,7 @@
 
 # Really Simple Toast
 
-It's a light and simple package to show toast in your web with the all frameworks of JS. Disappear in 3.5 seconds or clicking.
+Light and simple package to display toast in your application suitable with all the current JS frameworks . By default it will dissapear after 3.5 seconds or by clicking on it
 
 
 
@@ -29,11 +29,11 @@ function App() {
 ### Methods and properties
 
 - Fire: 
-    - First param <String>: Text to show in toast
-    - Second param <String> 'success' | 'error' | 'warning': Three differents styles, green, yellow or red.
-    - Third param <boolean>: By default is false, is for dark mode, if your are building a two mode web maybe you want to change the toast to dark or light. It's just change background to black and text to white.
+    - First param <String>: the text that your toast will show
+    - Second param <String> 'success' | 'error' | 'warning': This param alows you yo choose between three differents styles, green, yellow or red.
+    - Third param <boolean>: It turns dark mode on, (false by default). It will change your background and font color to adapt to your theme in two mode applications.
 
 
 ## Contact
 
-If you need to contact or need some specifications or suggestions write me! danirdev96@gmail.com (if you know, spanish better ;))
+For further specifications or suggestions you can contact me on danirdev96@gmail.com (I feel more confortable talking in spanish but we can sort it out ;) )

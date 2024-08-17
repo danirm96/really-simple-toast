@@ -1,6 +1,6 @@
 {
   "name": "really-simple-toast",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,6 +23,7 @@
     "type": "git",
     "url": "https://github.com/danirm96/really-simple-toast.git"
   },
+  "homepage": "https://github.com/danirm96/really-simple-toast",
   "author": "Daniel Rodríguez",
   "license": "ISC",
   "description": "Really simple toast notifications for vanilla JS",
